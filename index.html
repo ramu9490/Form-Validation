@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="continer">
+        <form class="myform">
+            <h1>Signup Here</h1>
+            <label>Full Name</label><br>
+            <input type="text" name="fullname" placeholder="EnterName..." required minlength="3" maxlength="20"><br>
+            <label>PhoneNumber</label><br>
+            <input type="text" name="phonenum" placeholder="EnterNumber..." required pattern="[789][0-9]{9}"><br>
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="Enteremail..."><br>
+            <label>LinkedIn</label><br>
+            <input type="url" name="linkedin" placeholder="enterurl"><br>
+            <label>Password</label><br>
+            <input type="password" name="password" placeholder="enterpassword"class="password"  required
+                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                title="need one upper case letter,one lower case letter,one number,one Special character,min 8 charcters"><br>
+            <label>Re-enter Password</label><br>
+            <input type="password" name="Confirm" placeholder="re-enterpassword" class="passwordconf" required
+                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                title="need one upper case letter,one lower case letter,one number,one Special character,min 8 charcters"><br>
+            <input type="submit" name="submit" value="Register" class="submit"><br>
+           
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

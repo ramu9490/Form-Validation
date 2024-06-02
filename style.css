@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    background-color: gray;
+    font-family: sans-serif;
+box-sizing: border-box;
+}
+.continer{
+    
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input{
+    width: 450px;
+    height: 30px;
+    margin-bottom: 20px;
+    
+}
+label{
+    
+    margin-bottom: 20px;
+    
+}
+.tq{
+    text-align: center;
+}
+.submit{
+    background-color: rgb(114, 114, 230);
+    border-radius: 10px;
+}
+.submit:hover{
+    
+    background-color: blue;
+}
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
+h1{
+    text-align: center;
+}
